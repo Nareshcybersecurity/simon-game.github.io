@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Simon Game</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    </head>
+    <body>
+        <div class="title">
+            <h1 id="level-title" >Press Any Key to Start</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <button class="btn" id="green" type="button"></button>
+                <button class="btn" id="red" type="button"></button>
+           </div>
+            <div class="row">
+                <button class="btn" id="yellow" type="button"></button>
+                <button class="btn" id="purple" type="button"></button>
+        </div>    
+        </div>
+        <footer>
+            <p><span>Rules: </span>The first player must press the colored buttons on the game unit in the exact same sequence as the one produced by the unit. If the player presses the correct sequence, the unit responds with a longer sequence. If the player makes a mistake, the unit emits a buzzing sound and the game ends</p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="app.js" charset="UTF-8"></script>
+    </body>
+</html>
